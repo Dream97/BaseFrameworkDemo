@@ -1,4 +1,4 @@
-package com.rastargame.rick.read.view.widget;
+package com.rastargame.rick.read.mvp.view.widget;
 
 import android.app.Activity;
 import android.content.Context;

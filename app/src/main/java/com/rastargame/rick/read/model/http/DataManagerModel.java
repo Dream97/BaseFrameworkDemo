@@ -20,4 +20,14 @@ public class DataManagerModel implements HttpHelper, PreferencesHelper, DBHelper
     public Flowable<SplashEntity> getSplash(String client, String version, Long time, String deviceId) {
         return mHttpHelper.getSplash(client,version,time,deviceId);
     }
+
+    @Override
+    public void setToken(String token) {
+        mPreferencesHelper.setToken(token);
+    }
+
+    @Override
+    public String getToken() {
+        return mPreferencesHelper.getToken();
+    }
 }

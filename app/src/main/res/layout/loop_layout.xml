@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="20dp"
+    android:background="@android:color/white"
+    android:foreground="?attr/selectableItemBackground"
+    android:transitionName="shareView"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp">
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="@dimen/dp_300_y"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@drawable/white_radius_bg"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto">-->
+    <!--<com.zhengsr.viewpagerlib.view.ArcImageView-->
+        <!--android:id="@+id/arc_icon"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--app:arc_height="15dp"-->
+        <!--android:scaleType="centerCrop"/>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/arc_icon"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:id="@+id/arc_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="华农"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="24dp"
+            />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

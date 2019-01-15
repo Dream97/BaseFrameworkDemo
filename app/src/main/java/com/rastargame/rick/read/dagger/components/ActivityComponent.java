@@ -1,10 +1,8 @@
 package com.rastargame.rick.read.dagger.components;
 
-import android.app.Activity;
-
 import com.rastargame.rick.read.dagger.modules.ActivityModule;
 import com.rastargame.rick.read.dagger.scope.ActivityScope;
-import com.rastargame.rick.read.view.activity.SplashActivity;
+import com.rastargame.rick.read.mvp.view.activity.SplashActivity;
 
 import dagger.Component;
 @ActivityScope

@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import butterknife.ButterKnife;
+
 public abstract class BaseFragment extends Fragment {
     public static final String TAG = BaseFragment.class.getSimpleName();
 
@@ -25,6 +27,7 @@ public abstract class BaseFragment extends Fragment {
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        ButterKnife.bind(this, view);
         super.onViewCreated(view, savedInstanceState);
         init();
     }

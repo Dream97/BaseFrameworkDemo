@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="none">
-        <com.rastargame.rick.read.view.widget.FixedImageView
+        <com.rastargame.rick.read.mvp.view.widget.FixedImageView
             android:id="@+id/splash_img"
             android:scaleType="centerCrop"
             android:layout_width="480dp"

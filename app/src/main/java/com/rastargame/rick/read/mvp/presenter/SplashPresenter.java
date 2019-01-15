@@ -1,8 +1,9 @@
-package com.rastargame.rick.read.presenter;
+package com.rastargame.rick.read.mvp.presenter;
 import com.rastargame.rick.read.base.RxPresenter;
 import com.rastargame.rick.read.model.entity.SplashEntity;
 import com.rastargame.rick.read.model.http.CommonSubscriber;
 import com.rastargame.rick.read.model.http.DataManagerModel;
+import com.rastargame.rick.read.mvp.contract.SplashContract;
 import com.rastargame.rick.read.utils.RxUtil;
 import org.reactivestreams.Publisher;
 import javax.inject.Inject;

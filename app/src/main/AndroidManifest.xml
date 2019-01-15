@@ -13,14 +13,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme.Splash">
-        <activity android:name=".view.activity.SplashActivity">
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:theme="@style/AppTheme.Splash"
+            android:name=".mvp.view.activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".mvp.view.activity.Mainactivity"></activity>
     </application>
 
 </manifest>

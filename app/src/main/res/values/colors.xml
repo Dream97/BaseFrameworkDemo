@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#1296db</color>
+    <color name="colorPrimaryDark">#1296db</color>
+    <color name="colorAccent">#1296db</color>
+    <color name="unSelectedColor">#bfbfbf</color>
+    <color name="selectedColor">#1296db</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <!--fragment背景颜色-->
+    <color name="bg_fragment">#f2f2f2</color>
+    <color name="gray">#A2A2A2</color>
+    <color name="yellow">#FF8811</color>
+    <color name="green">#226F66</color>
 </resources>

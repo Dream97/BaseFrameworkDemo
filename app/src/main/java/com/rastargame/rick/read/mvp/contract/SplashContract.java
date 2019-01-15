@@ -1,4 +1,4 @@
-package com.rastargame.rick.read.presenter;
+package com.rastargame.rick.read.mvp.contract;
 
 import com.rastargame.rick.read.base.BasePresenter;
 import com.rastargame.rick.read.base.BaseView;

@@ -1,4 +1,4 @@
-package com.rastargame.rick.read.view.activity;
+package com.rastargame.rick.read.mvp.view.activity;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -13,11 +13,11 @@ import android.widget.Toast;
 
 import com.rastargame.rick.read.R;
 import com.rastargame.rick.read.base.MvpBaseActivity;
-import com.rastargame.rick.read.presenter.SplashContract;
-import com.rastargame.rick.read.presenter.SplashPresenter;
+import com.rastargame.rick.read.mvp.contract.SplashContract;
+import com.rastargame.rick.read.mvp.presenter.SplashPresenter;
 import com.rastargame.rick.read.utils.AppUtils;
 import com.rastargame.rick.read.utils.ImageLoader;
-import com.rastargame.rick.read.view.widget.FixedImageView;
+import com.rastargame.rick.read.mvp.view.widget.FixedImageView;
 
 import butterknife.BindView;
 
@@ -104,7 +104,9 @@ public class SplashActivity extends MvpBaseActivity<SplashPresenter> implements 
 
             @Override
             public void onAnimationEnd(Animator animation) {
-
+                Intent intent = new Intent(SplashActivity.this, Mainactivity.class);
+                startActivity(intent);
+                finish();
             }
 
             @Override
